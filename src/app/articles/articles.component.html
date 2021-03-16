@@ -1,0 +1,7 @@
+<app-article *ngFor="let article of this.articles" [article]="article" (deletedArticle)="deleteArticle($event)"></app-article>
+
+<!--
+<app-article-creation (refresh)="getArticles()"></app-article-creation>
+-->
+
+
